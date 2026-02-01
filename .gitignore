@@ -1,0 +1,23 @@
+# Java
+target/
+*.class
+*.jar
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# PostgreSQL
+*.sql.bak
