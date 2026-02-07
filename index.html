@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrackCore - Gestão de Ativos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TrackCore</h1>
+            <p>Sistema de Gestão de Ativos Corporativos</p>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab active" onclick="showTab('assets')">Ativos</button>
+            <button class="tab" onclick="showTab('users')">Usuários</button>
+            <button class="tab" onclick="showTab('locations')">Localizações</button>
+            <button class="tab" onclick="showTab('history')">Histórico</button>
+        </nav>
+
+        <main>
+            <div id="assets" class="tab-content active">
+                <div class="section-header">
+                    <h2>Ativos</h2>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-label">Total</span>
+                            <span class="stat-value" id="total-assets">0</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Disponíveis</span>
+                            <span class="stat-value" id="available-assets">0</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Em Uso</span>
+                            <span class="stat-value" id="in-use-assets">0</span>
+                        </div>
+                    </div>
+                </div>
+                <table id="assets-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Categoria</th>
+                            <th>Valor Atual</th>
+                            <th>Status</th>
+                            <th>Localização</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+            <div id="users" class="tab-content">
+                <div class="section-header">
+                    <h2>Usuários</h2>
+                </div>
+                <table id="users-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Email</th>
+                            <th>Departamento</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+            <div id="locations" class="tab-content">
+                <div class="section-header">
+                    <h2>Localizações</h2>
+                </div>
+                <table id="locations-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Filial</th>
+                            <th>Andar</th>
+                            <th>Sala</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+            <div id="history" class="tab-content">
+                <div class="section-header">
+                    <h2>Histórico de Custódia</h2>
+                </div>
+                <table id="history-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Ativo</th>
+                            <th>Usuário</th>
+                            <th>Data Início</th>
+                            <th>Data Fim</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
