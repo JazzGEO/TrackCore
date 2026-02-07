@@ -142,7 +142,7 @@ TrackCore/
 
 ### Decisões Técnicas
 
-PostgreSQL foi escolhido pela integridade referencial e suporte nativo a JSONB para o audit log. Spring Boot foi usado por ser o framework mais maduro e utilizado no ecossistema Java. Python foi usado para automação por sua facilidade com processamento de dados. Docker foi usado para garantir que o ambiente de desenvolvimento seja consistente.
+PostgreSQL foi escolhido pela integridade referencial e suporte nativo a JSONB para o audit log. Spring Boot foi usado por ser o framework mais maduro e utilizado no ecossistema Java. Python foi usado para automação por sua facilidade com processamento de dados. Docker foi usado para garantir que o ambiente de desenvolvimento seja consistente
 
 ---
 
