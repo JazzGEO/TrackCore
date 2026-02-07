@@ -5,7 +5,7 @@ Sistema SaaS de Gestão de Ativos Corporativos e Rastreabilidade Patrimonial.
 ## Screenshots
 
 ![Gestão de Ativos](ativos.png)
-![Gestão de Usuários](usuarios.png)
+![Gestão de Usuárioss](usuarios.png)
 
 ---
 
