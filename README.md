@@ -69,12 +69,6 @@ git clone https://github.com/JazzGEO/TrackCore.git
 cd TrackCore
 docker-compose up -d
 ```
-
-**Acessar:**
-
-- API: http://localhost:8080/api/assets
-- Frontend: Abrir `frontend/index.html` no navegador
-
 **Rodar Scripts Python:**
 ```bash
 cd scripts-python
@@ -212,12 +206,6 @@ git clone https://github.com/JazzGEO/TrackCore.git
 cd TrackCore
 docker-compose up -d
 ```
-
-**Access:**
-
-- API: http://localhost:8080/api/assets
-- Frontend: Open `frontend/index.html` in browser
-
 **Run Python Scripts:**
 ```bash
 cd scripts-python
